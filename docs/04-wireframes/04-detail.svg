@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="900" viewBox="0 0 1440 900">
+<title>04 Detail — Facility Issue Details</title><desc>Editable black-and-white low-fidelity wireframe. Shapes and labels are separate SVG elements.</desc>
+<rect id="canvas-background" x="0" y="0" width="1440" height="900" fill="#ffffff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#000} .meta{font-family:Arial,Helvetica,sans-serif;fill:#000}</style>
+<rect id="sidebar-1" x="0" y="0" width="256" height="900" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="brand-wordmark-2" x="28" y="45" font-size="22" font-weight="700" text-anchor="start" font-style="normal">ParSuFix</text>
+<text id="brand-descriptor-3" x="28" y="66" font-size="8" font-weight="700" text-anchor="start" font-style="normal">FACILITY ISSUE MANAGEMENT</text>
+<line id="divider-4" x1="24" y1="84" x2="232" y2="84" stroke="#000" stroke-width="1"/>
+<text id="navigation-heading-5" x="28" y="112" font-size="9" font-weight="700" text-anchor="start" font-style="normal">ADMIN NAVIGATION</text>
+<text id="navigation-item-6" x="34" y="156" font-size="13" font-weight="400" text-anchor="start" font-style="normal">Overview</text>
+<rect id="active-navigation-item-7" x="18" y="180" width="220" height="38" rx="0" fill="#000" stroke="#000" stroke-width="1"/>
+<text style="fill:#fff" id="navigation-item-8" x="34" y="204" font-size="13" font-weight="700" text-anchor="start" font-style="normal">Manage Facility Issues</text>
+<text id="navigation-item-9" x="34" y="252" font-size="13" font-weight="400" text-anchor="start" font-style="normal">Locations</text>
+<text id="navigation-item-10" x="34" y="300" font-size="13" font-weight="400" text-anchor="start" font-style="normal">Users</text>
+<text id="navigation-item-11" x="34" y="348" font-size="13" font-weight="400" text-anchor="start" font-style="normal">Reports</text>
+<line id="divider-12" x1="24" y1="800" x2="232" y2="800" stroke="#000" stroke-width="1"/>
+<text id="profile-heading-13" x="28" y="827" font-size="8" font-weight="700" text-anchor="start" font-style="normal">CURRENT USER</text>
+<text id="profile-name-14" x="28" y="850" font-size="12" font-weight="700" text-anchor="start" font-style="normal">Roswell Pancho</text>
+<text id="profile-role-15" x="28" y="870" font-size="10" font-weight="400" text-anchor="start" font-style="normal">Administrator</text>
+<rect id="logout-outline-16" x="178" y="822" width="60" height="34" rx="2" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="logout-label-17" x="208.0" y="842.5" font-size="10" font-weight="700" text-anchor="middle" font-style="normal">Logout</text>
+<text id="top-profile-name-18" x="1355" y="43" font-size="12" font-weight="700" text-anchor="end" font-style="normal">Roswell Pancho</text>
+<rect id="top-logout-outline-19" x="1365" y="24" width="64" height="34" rx="2" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="top-logout-label-20" x="1397.0" y="44.5" font-size="10" font-weight="700" text-anchor="middle" font-style="normal">Logout</text>
+<text id="page-heading-21" x="288" y="111" font-size="28" font-weight="700" text-anchor="start" font-style="normal">Facility Issue Details</text>
+<text id="page-description-22" x="288" y="136" font-size="12" font-weight="400" text-anchor="start" font-style="normal">Review the report, assignment, and repair progress.</text>
+<rect id="back-to-list-outline-23" x="1194" y="95" width="194" height="40" rx="2" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="back-to-list-label-24" x="1291.0" y="118.5" font-size="10" font-weight="700" text-anchor="middle" font-style="normal">Back to Manage Issues</text>
+<rect id="issue-report-panel-25" x="288" y="160" width="690" height="686" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="issue-report-heading-26" x="308" y="190" font-size="17" font-weight="700" text-anchor="start" font-style="normal">Issue report</text>
+<text id="issue-report-caption-27" x="308" y="209" font-size="10" font-weight="400" text-anchor="start" font-style="normal">Sample report · submitted 18 Nov 2026</text>
+<text id="detail-issue-id-label-28" x="310" y="230" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Issue ID</text>
+<text id="database-column-label-29" x="310" y="245" font-size="9" font-weight="400" text-anchor="start" font-style="italic">facility_issues.issue_id</text>
+<text id="detail-issue-id-value-30" x="310" y="269" font-size="14" font-weight="700" text-anchor="start" font-style="normal">#PSF-2048</text>
+<text id="detail-priority-label-31" x="550" y="230" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Priority</text>
+<text id="detail-priority-value-32" x="550" y="269" font-size="13" font-weight="700" text-anchor="start" font-style="normal">High</text>
+<text id="detail-status-label-33" x="750" y="230" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Status</text>
+<text id="database-column-label-34" x="750" y="245" font-size="9" font-weight="400" text-anchor="start" font-style="italic">facility_issues.status</text>
+<rect id="detail-status-pill-35" x="750" y="252" width="190" height="30" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="detail-status-value-36" x="845" y="272" font-size="11" font-weight="700" text-anchor="middle" font-style="normal">In Progress</text>
+<line id="divider-37" x1="310" y1="293" x2="956" y2="293" stroke="#000" stroke-width="1"/>
+<text id="detail-facility-label-38" x="310" y="318" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Facility name</text>
+<text id="database-column-label-39" x="310" y="333" font-size="9" font-weight="400" text-anchor="start" font-style="italic">facility_issues.facility_name</text>
+<text id="detail-facility-value-40" x="310" y="357" font-size="13" font-weight="400" text-anchor="start" font-style="normal">North Hall Lift</text>
+<text id="detail-identifier-label-41" x="650" y="318" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Facility identifier</text>
+<text id="database-column-label-42" x="650" y="333" font-size="9" font-weight="400" text-anchor="start" font-style="italic">facility_issues.facility_identifier</text>
+<text id="detail-identifier-value-43" x="650" y="357" font-size="13" font-weight="400" text-anchor="start" font-style="normal">LIFT-NH-02</text>
+<text id="detail-category-label-44" x="310" y="392" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Issue category</text>
+<text id="database-column-label-45" x="310" y="407" font-size="9" font-weight="400" text-anchor="start" font-style="italic">facility_issues.issue_category</text>
+<text id="detail-category-value-46" x="310" y="418" font-size="13" font-weight="400" text-anchor="start" font-style="normal">Elevator / Lift</text>
+<text id="detail-reporter-label-47" x="650" y="392" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Reporter</text>
+<text id="database-column-label-48" x="650" y="407" font-size="9" font-weight="400" text-anchor="start" font-style="italic">users.full_name</text>
+<text id="detail-reporter-value-49" x="650" y="431" font-size="13" font-weight="400" text-anchor="start" font-style="normal">Maya Chen</text>
+<text id="detail-description-label-50" x="310" y="458" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Description</text>
+<text id="database-column-label-51" x="310" y="473" font-size="9" font-weight="400" text-anchor="start" font-style="italic">facility_issues.description</text>
+<rect id="detail-description-box-52" x="310" y="482" width="646" height="70" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="detail-description-text-53" y="505" font-size="11" font-weight="400" text-anchor="start"><tspan x="323" dy="0">Elevator stops between floors and doors remain closed.</tspan><tspan x="323" dy="17">Intermittent issue reported by multiple building occupants.</tspan></text>
+<text id="detail-location-heading-54" x="310" y="584" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Building / floor / room</text>
+<text id="database-column-label-55" x="310" y="599" font-size="9" font-weight="400" text-anchor="start" font-style="italic">locations.building_name · locations.floor_number · locations.room_name</text>
+<rect id="detail-location-box-56" x="310" y="608" width="646" height="48" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="detail-location-value-57" x="326" y="629" font-size="12" font-weight="400" text-anchor="start" font-style="normal">Admin Block  /  Floor 2  /  Room 214</text>
+<text id="detail-specific-area-value-58" x="326" y="646" font-size="9" font-weight="400" text-anchor="start" font-style="normal">Specific area: elevator lobby · north side</text>
+<line id="divider-59" x1="310" y1="672" x2="956" y2="672" stroke="#000" stroke-width="1"/>
+<text id="reporter-notes-label-60" x="310" y="698" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Reporter notes</text>
+<text id="reporter-notes-text-61" x="310" y="721" font-size="11" font-weight="400" text-anchor="start" font-style="normal">The lift stopped at level 2 at approximately 09:10 AM.</text>
+<text id="report-retention-note-62" x="310" y="748" font-size="9" font-weight="400" text-anchor="start" font-style="italic">Submitted via ParSuFix · report retained as historical record</text>
+<text id="detail-schema-footer-1-63" x="310" y="796" font-size="8.5" font-weight="400" text-anchor="start" font-style="normal">Issue fields: facility_issues.issue_id · facility_issues.facility_name · facility_issues.description · facility_issues.status</text>
+<rect id="issue-photos-panel-64" x="994" y="160" width="394" height="238" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="issue-photos-heading-65" x="1014" y="190" font-size="17" font-weight="700" text-anchor="start" font-style="normal">Issue Photos</text>
+<text id="issue-photos-caption-66" x="1014" y="209" font-size="10" font-weight="400" text-anchor="start" font-style="normal">Photo attachments submitted with the report</text>
+<text id="database-column-label-67" x="1014" y="224" font-size="9" font-weight="400" text-anchor="start" font-style="italic">issue_photos.file_path</text>
+<rect id="issue-photo-placeholder-1-68" x="1014" y="238" width="160" height="112" rx="0" fill="#fff" stroke="#000" stroke-width="1" stroke-dasharray="5 3"/>
+<text id="issue-photo-placeholder-label-1-69" x="1094" y="281" font-size="10" font-weight="700" text-anchor="middle" font-style="normal">[ PHOTO ]</text>
+<text id="issue-photo-caption-1-70" x="1094" y="306" font-size="9" font-weight="400" text-anchor="middle" font-style="normal">Issue photo 1</text>
+<rect id="issue-photo-placeholder-2-71" x="1190" y="238" width="160" height="112" rx="0" fill="#fff" stroke="#000" stroke-width="1" stroke-dasharray="5 3"/>
+<text id="issue-photo-placeholder-label-2-72" x="1270" y="281" font-size="10" font-weight="700" text-anchor="middle" font-style="normal">[ PHOTO ]</text>
+<text id="issue-photo-caption-2-73" x="1270" y="306" font-size="9" font-weight="400" text-anchor="middle" font-style="normal">Issue photo 2</text>
+<text id="issue-photo-path-placeholder-74" x="1014" y="378" font-size="8.5" font-weight="400" text-anchor="start" font-style="italic">file_path: [image placeholder]</text>
+<rect id="assignment-repair-panel-75" x="994" y="414" width="394" height="432" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="assignment-repair-heading-76" x="1014" y="444" font-size="17" font-weight="700" text-anchor="start" font-style="normal">Assignment &amp; Repair</text>
+<text id="assignment-repair-caption-77" x="1014" y="463" font-size="10" font-weight="400" text-anchor="start" font-style="normal">Assignment details and repair record</text>
+<text id="assignment-heading-78" x="1014" y="478" font-size="11" font-weight="700" text-anchor="start" font-style="normal">Assignment</text>
+<text id="database-column-label-79" x="1014" y="494" font-size="9" font-weight="400" text-anchor="start" font-style="italic">issue_assignments.assignment_id</text>
+<rect id="assignment-details-box-80" x="1014" y="503" width="354" height="48" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="assignment-id-value-81" x="1026" y="524" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Assignment: ASG-0084</text>
+<text id="assignment-assignee-82" x="1026" y="541" font-size="9" font-weight="400" text-anchor="start" font-style="normal">Assigned to: Facilities Maintenance Team</text>
+<text id="repair-progress-heading-83" x="1014" y="577" font-size="11" font-weight="700" text-anchor="start" font-style="normal">Repair progress</text>
+<rect id="repair-progress-box-84" x="1014" y="589" width="354" height="48" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="repair-progress-status-85" x="1026" y="610" font-size="9.5" font-weight="400" text-anchor="start" font-style="normal">In progress · technician inspection completed</text>
+<text id="repair-progress-next-step-86" x="1026" y="628" font-size="9" font-weight="400" text-anchor="start" font-style="normal">Next: inspect lift control unit</text>
+<text id="repair-record-heading-87" x="1014" y="662" font-size="11" font-weight="700" text-anchor="start" font-style="normal">Repair record</text>
+<text id="database-column-label-88" x="1014" y="678" font-size="9" font-weight="400" text-anchor="start" font-style="italic">repair_records.action_taken · repair_records.remarks</text>
+<rect id="repair-record-box-89" x="1014" y="687" width="354" height="56" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="repair-action-taken-90" x="1026" y="708" font-size="9.5" font-weight="400" text-anchor="start" font-style="normal">Action: Performed initial safety check</text>
+<text id="repair-remarks-91" x="1026" y="728" font-size="9" font-weight="400" text-anchor="start" font-style="normal">Remarks: Awaiting replacement control part</text>
+<text id="repair-photos-heading-92" x="1014" y="769" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Repair photos</text>
+<text id="database-column-label-93" x="1014" y="784" font-size="9" font-weight="400" text-anchor="start" font-style="italic">repair_photos.file_path</text>
+<rect id="repair-photo-placeholder-1-94" x="1014" y="792" width="105" height="40" rx="0" fill="#fff" stroke="#000" stroke-width="1" stroke-dasharray="4 3"/>
+<rect id="repair-photo-placeholder-2-95" x="1134" y="792" width="105" height="40" rx="0" fill="#fff" stroke="#000" stroke-width="1" stroke-dasharray="4 3"/>
+<text id="repair-photo-add-placeholder-96" x="1260" y="816" font-size="8.5" font-weight="400" text-anchor="start" font-style="normal">[ + ] Add photo</text>
+</svg>

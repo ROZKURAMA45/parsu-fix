@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="844" viewBox="0 0 390 844">
+<title>02 List Mobile — Admin Manage Facility Issues</title><desc>Editable black-and-white low-fidelity wireframe. Shapes and labels are separate SVG elements.</desc>
+<rect id="canvas-background" x="0" y="0" width="390" height="844" fill="#ffffff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#000} .meta{font-family:Arial,Helvetica,sans-serif;fill:#000}</style>
+<rect id="mobile-header-1" x="0" y="0" width="390" height="65" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="brand-wordmark-2" x="17" y="28" font-size="18" font-weight="700" text-anchor="start" font-style="normal">ParSuFix</text>
+<text id="mobile-header-subtitle-3" x="17" y="48" font-size="10" font-weight="400" text-anchor="start" font-style="normal">Manage Facility Issues</text>
+<rect id="mobile-menu-button-outline-4" x="322" y="16" width="50" height="34" rx="2" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="mobile-menu-button-label-5" x="347.0" y="36.5" font-size="10" font-weight="700" text-anchor="middle" font-style="normal">Menu</text>
+<text id="mobile-page-heading-6" x="18" y="96" font-size="20" font-weight="700" text-anchor="start" font-style="normal">Manage Facility</text>
+<text id="mobile-page-heading-continued-7" x="18" y="120" font-size="20" font-weight="700" text-anchor="start" font-style="normal">Issues</text>
+<text id="mobile-page-description-8" x="18" y="142" font-size="10" font-weight="400" text-anchor="start" font-style="normal">Admin · Issue report list</text>
+<text id="mobile-search-label-9" x="18" y="171" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Search reports</text>
+<rect id="mobile-search-field-10" x="18" y="180" width="354" height="40" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="mobile-search-placeholder-11" x="30" y="205" font-size="11" font-weight="400" text-anchor="start" font-style="normal">Issue ID or facility name...</text>
+<text id="mobile-status-label-12" x="18" y="244" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Status filter</text>
+<rect id="mobile-status-filter-13" x="18" y="252" width="220" height="38" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="mobile-status-value-14" x="30" y="276" font-size="11" font-weight="400" text-anchor="start" font-style="normal">All statuses  v</text>
+<rect id="mobile-filter-button-outline-15" x="250" y="252" width="122" height="38" rx="2" fill="#000" stroke="#000" stroke-width="1"/>
+<text style="fill:#fff" id="mobile-filter-button-label-16" x="311.0" y="274.5" font-size="10" font-weight="700" text-anchor="middle" font-style="normal">Apply filter</text>
+<text id="mobile-record-count-17" x="18" y="314" font-size="10" font-weight="700" text-anchor="start" font-style="normal">Issue reports · 2 sample records</text>
+<rect id="mobile-issue-card-1-18" x="18" y="325" width="354" height="148" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="mobile-issue-1-id-19" x="30" y="347" font-size="11" font-weight="700" text-anchor="start" font-style="normal">#PSF-2048</text>
+<rect id="mobile-issue-1-status-pill-20" x="254" y="333" width="106" height="24" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="mobile-issue-1-status-21" x="307" y="350" font-size="9" font-weight="700" text-anchor="middle" font-style="normal">In Progress</text>
+<text id="mobile-issue-1-facility-22" x="30" y="371" font-size="12" font-weight="700" text-anchor="start" font-style="normal">North Hall Lift</text>
+<text id="mobile-issue-1-category-23" x="30" y="391" font-size="9" font-weight="400" text-anchor="start" font-style="normal">Category: Elevator</text>
+<text id="mobile-issue-1-location-24" x="30" y="409" font-size="8.5" font-weight="400" text-anchor="start" font-style="normal">Location: Admin Block / Level 2 / Room 214</text>
+<text id="mobile-issue-1-date-25" x="30" y="427" font-size="8.5" font-weight="400" text-anchor="start" font-style="normal">Reported: 18 Nov 2026</text>
+<rect id="mobile-issue-1-review-outline-26" x="30" y="437" width="112" height="27" rx="2" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="mobile-issue-1-review-label-27" x="86.0" y="453.475" font-size="8.5" font-weight="700" text-anchor="middle" font-style="normal">Edit / Review</text>
+<rect id="mobile-issue-1-delete-disabled-outline-28" x="248" y="437" width="112" height="27" rx="2" fill="#fff" stroke="#000" stroke-width="1" stroke-dasharray="5 3"/>
+<text id="mobile-issue-1-delete-disabled-label-29" x="304.0" y="453.3" font-size="8" font-weight="700" text-anchor="middle" font-style="normal">Delete unavailable</text>
+<rect id="mobile-issue-card-2-30" x="18" y="485" width="354" height="148" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="mobile-issue-2-id-31" x="30" y="507" font-size="11" font-weight="700" text-anchor="start" font-style="normal">#PSF-2041</text>
+<rect id="mobile-issue-2-status-pill-32" x="254" y="493" width="106" height="24" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="mobile-issue-2-status-33" x="307" y="510" font-size="9" font-weight="700" text-anchor="middle" font-style="normal">Pending</text>
+<text id="mobile-issue-2-facility-34" x="30" y="531" font-size="12" font-weight="700" text-anchor="start" font-style="normal">Library HVAC</text>
+<text id="mobile-issue-2-category-35" x="30" y="551" font-size="9" font-weight="400" text-anchor="start" font-style="normal">Category: Heating / Cooling</text>
+<text id="mobile-issue-2-location-36" x="30" y="569" font-size="8.5" font-weight="400" text-anchor="start" font-style="normal">Location: Library / Level 1 / Room 108</text>
+<text id="mobile-issue-2-date-37" x="30" y="587" font-size="8.5" font-weight="400" text-anchor="start" font-style="normal">Reported: 17 Nov 2026</text>
+<rect id="mobile-issue-2-review-outline-38" x="30" y="597" width="112" height="27" rx="2" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="mobile-issue-2-review-label-39" x="86.0" y="613.475" font-size="8.5" font-weight="700" text-anchor="middle" font-style="normal">Edit / Review</text>
+<rect id="mobile-issue-2-delete-disabled-outline-40" x="248" y="597" width="112" height="27" rx="2" fill="#fff" stroke="#000" stroke-width="1" stroke-dasharray="5 3"/>
+<text id="mobile-issue-2-delete-disabled-label-41" x="304.0" y="613.3" font-size="8" font-weight="700" text-anchor="middle" font-style="normal">Delete unavailable</text>
+<rect id="mobile-empty-state-42" x="18" y="655" width="354" height="94" rx="0" fill="#fff" stroke="#000" stroke-width="1"/>
+<text id="mobile-empty-state-alternate-label-43" x="30" y="672" font-size="7.5" font-weight="700" text-anchor="start" font-style="normal">ALTERNATE FILTERED STATE</text>
+<text id="mobile-empty-state-message-44" x="195" y="692" font-size="11" font-weight="700" text-anchor="middle" font-style="normal">No facility issue reports found.</text>
+<text id="mobile-empty-state-helper-45" x="195" y="710" font-size="8.5" font-weight="400" text-anchor="middle" font-style="normal">Empty when filters return no matches.</text>
+<text id="mobile-retention-notice-46" x="195" y="733" font-size="8" font-weight="400" text-anchor="middle" font-style="normal">Historical records are retained; Delete is unavailable.</text>
+<text id="mobile-schema-line-1-47" x="18" y="777" font-size="8.5" font-weight="400" text-anchor="start" font-style="normal">Data labels: facility_issues.issue_id · facility_issues.status</text>
+<text id="mobile-schema-line-2-48" x="18" y="790" font-size="8.5" font-weight="400" text-anchor="start" font-style="normal">facility_issues.facility_name · facility_issues.issue_category</text>
+<text id="mobile-schema-line-3-49" x="18" y="803" font-size="8.5" font-weight="400" text-anchor="start" font-style="normal">facility_issues.reported_at · locations.building_name</text>
+<text id="mobile-schema-line-4-50" x="18" y="816" font-size="8.5" font-weight="400" text-anchor="start" font-style="normal">locations.room_name</text>
+<text id="mobile-footer-51" x="18" y="835" font-size="8" font-weight="400" text-anchor="start" font-style="italic">ParSuFix · Administrator view</text>
+</svg>
