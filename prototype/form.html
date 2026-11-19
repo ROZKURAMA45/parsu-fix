@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report an Issue | ParSuFix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style .css">
+</head>
+<body>
+    <header class="topbar">
+        <a class="brand" href="list.html" aria-label="ParSuFix home">
+            <span class="brand-mark">P</span>
+            <span>ParSuFix</span>
+        </a>
+        <div class="topbar-user">
+            <span class="user-avatar">SS</span>
+            <span>Sample Student</span>
+        </div>
+    </header>
+
+    <div class="page-layout reporter-layout">
+        <aside class="sidebar reporter-sidebar">
+            <p class="sidebar-title">REPORTING USER</p>
+            <nav aria-label="Reporting user navigation">
+                <a href="#dashboard">Dashboard</a>
+                <a class="active" href="form.html" aria-current="page">Report an Issue</a>
+                <a href="#my-reports">My Reports</a>
+                <a href="#notifications">Notifications</a>
+                <a href="#profile">Profile</a>
+            </nav>
+            <a class="logout-link" href="#logout">Log out</a>
+        </aside>
+
+        <main class="main-content form-page">
+            <div class="page-heading">
+                <div>
+                    <p class="eyebrow">REPORTING USER / NEW REPORT</p>
+                    <h1>Report a Facility Issue</h1>
+                    <p class="page-description">Provide the details of the damaged or malfunctioning facility.</p>
+                </div>
+                <a class="button button-secondary" href="list.html">Back to Issue List</a>
+            </div>
+
+            <section class="content-card form-card">
+                <div class="section-heading">
+                    <div>
+                        <h2>Issue Information</h2>
+                        <p class="muted-text">Fields marked with an asterisk (*) are required.</p>
+                    </div>
+                </div>
+
+                <form class="issue-form" action="#" method="post" enctype="multipart/form-data">
+                    <div class="form-grid">
+                        <div class="form-field">
+                            <label for="reported_by">Reporter user ID (reported_by) <span class="required-mark">*</span></label>
+                            <input id="reported_by" name="reported_by" type="text" value="1" required readonly>
+                            <small class="field-help">Demo value: Sample Student. In the real system, this comes from the signed-in account.</small>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="location_id">Campus location (location_id) <span class="required-mark">*</span></label>
+                            <select id="location_id" name="location_id" required>
+                                <option value="">Select a building and room</option>
+                                <option value="1">Information Technology Building · 1st Floor · Computer Laboratory</option>
+                                <option value="2">Information Technology Building · 1st Floor · Room 6</option>
+                                <option value="3">Information Technology Building · 1st Floor · Room 7</option>
+                                <option value="4">Information Technology Building · 2nd Floor · Room 15</option>
+                                <option value="5">Information Technology Building · 2nd Floor · Computer Laboratory</option>
+                                <option value="6">Information Technology Building · 3rd Floor · Room 20</option>
+                            </select>
+                            <small class="field-help">Choose an existing location from the locations table.</small>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="facility_name">Facility name (facility_name) <span class="required-mark">*</span></label>
+                            <input id="facility_name" name="facility_name" type="text" maxlength="150" placeholder="Example: Electric Fan" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="facility_identifier">Facility identifier (facility_identifier)</label>
+                            <input id="facility_identifier" name="facility_identifier" type="text" maxlength="100" placeholder="Example: FAN-001">
+                        </div>
+
+                        <div class="form-field">
+                            <label for="specific_area">Specific area (specific_area)</label>
+                            <input id="specific_area" name="specific_area" type="text" maxlength="150" placeholder="Example: Near the instructor table">
+                        </div>
+
+                        <div class="form-field">
+                            <label for="issue_category">Issue category (issue_category) <span class="required-mark">*</span></label>
+                            <select id="issue_category" name="issue_category" required>
+                                <option value="">Select a category</option>
+                                <option value="Electrical">Electrical</option>
+                                <option value="Furniture">Furniture</option>
+                                <option value="Structural">Structural</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-field full-width">
+                            <label for="description">Description (description) <span class="required-mark">*</span></label>
+                            <textarea id="description" name="description" rows="4" placeholder="Describe the facility problem..." required></textarea>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="priority">Priority (priority) <span class="required-mark">*</span></label>
+                            <select id="priority" name="priority" required>
+                                <option value="Medium" selected>Medium</option>
+                                <option value="Low">Low</option>
+                                <option value="High">High</option>
+                            </select>
+                            <small class="field-help">The database default is Medium.</small>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="status">Initial status (status) <span class="required-mark">*</span></label>
+                            <input id="status" name="status" type="text" value="Pending Review" required readonly>
+                            <small class="field-help">This status is set by the system and is not changed by the reporting user.</small>
+                        </div>
+
+                        <div class="form-field full-width">
+                            <label for="file_path">Issue photo (issue_photos.file_path)</label>
+                            <input id="file_path" name="file_path" type="file" accept="image/*">
+                            <small class="field-help">Optional evidence photo. Photo details are stored in the related issue_photos table.</small>
+                        </div>
+                    </div>
+
+                    <div class="example-error" role="alert">
+                        <strong>Example validation error:</strong> Facility name is required.
+                    </div>
+
+                    <div class="form-actions">
+                        <a class="button button-secondary" href="list.html">Cancel</a>
+                        <button class="button button-primary" type="submit">Submit Report</button>
+                    </div>
+                    <p class="prototype-note">Static prototype only: this form does not save data yet. PHP and database connection will be added in a later task.</p>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">ParSuFix · Partido State University · Static HTML/CSS Prototype</footer>
+</body>
+</html>
