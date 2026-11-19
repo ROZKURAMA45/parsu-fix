@@ -12,34 +12,18 @@ All pages will use the same colors, fonts, buttons, and input styles to make the
 
 These are the colors that will be used in the ParSuFix prototype.
 
-| Color | Hex Code | Purpose |
-|---|---|---|
-| Primary | `#123B56` | Buttons, links, and headings |
-| Background | `#F5F7FA` | Main page background |
-| Text | `#172B3A` | Text and labels |
-| Success | `#236B45` | Completed messages and successful actions |
-| Error | `#A12D2A` | Error messages and warnings |
+Use dark blue for buttons, links, and headings; light gray for the background; dark text for labels; green for success messages; and red for errors.
 
 ### Color  Check
 
 
 
-| Text Color| Background Color 
-| `#172B3A` | `#F5F7FA` 
-| `#FFFFFF` | `#123B56` 
-| `#236B45` | `#F5F7FA` 
-| `#A12D2A` | `#F5F7FA` 
+Use dark text (#172B3A) on light gray (#F5F7FA), white text (#FFFFFF) on dark blue (#123B56), green text (#236B45) for success, and red text (#A12D2A) for errors. 
 
 
 ## 3. Fonts
 
-The prototype will use two fonts:
-
- Font  Purpose
-|---|---|
-| Poppins | Headings and page titles |
-| Inter | Body text, labels, and buttons |
-
+Poppins will be used for headings and page titles, while Inter will be used for body text, labels, and buttons.
 **Base font size:** 16px
 
 These fonts are easy to read and suitable for a web application.
@@ -101,10 +85,3 @@ These variables will be used in the `style.css` file for the HTML/CSS prototype.
 }
 ```
 
-## 6. Usage in Task 6
-
-These styles will be used when creating the static HTML/CSS prototype.
-
-The same colors, fonts, buttons, and input styles will be used on the pages to keep the ParSuFix design consistent.
-
-This style guide is only for the new HTML/CSS prototype. It does not use the existing PHP code or database connection.
